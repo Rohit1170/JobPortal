@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    background-color: #202124; /* Dark background color */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #202124; /* Dark background color */
+    padding: 10px;
+    border-bottom: solid 1px #292929; /* Dark border color */
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+  }
+  
+  .select-container {
+    position: relative;
+  }
+  
+  .select-container select {
+    padding: 8px 30px 8px 10px;
+    font-size: 16px;
+    border: 1px solid #666; /* Dark border color */
+    border-radius: 10px;
+    background-color: #292929; /* Dark background color */
+    color: #ccc; /* Light text color */
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .select-container select:focus {
+    outline: none;
+  }
+  
+  .select-container::before {
+    content: '\f078';
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #666; /* Dark border color */
+    border-radius: 5px;
+    background-color: #292929; /* Dark background color */
+    color: #ccc; /* Light text color */
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: #007bff; /* Border color on focus */
+  }
+  
+  .input-container::before {
+    content: '\f002';
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  

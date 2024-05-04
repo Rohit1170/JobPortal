@@ -1,0 +1,72 @@
+body{
+    background-color: #202124; 
+}
+.card {
+    width: calc(32.9% - 20px); /* Three cards per row */
+    margin: 12px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); /* Updated box-shadow */
+    border-radius: 15px; /* Updated border-radius */
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    color: #ccc;
+    background-color:#292929;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-location,
+  .card-role,
+  .card-salary,
+  .card-exp {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .card-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .apply-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
